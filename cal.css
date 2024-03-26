@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
-html, body {
+html, body{
   height: 100%;
   width: 100%;
   font-family: 'Roboto', sans-serif; 
@@ -20,8 +20,9 @@ html, body {
 .row input{
   width: 291px;
   font-size: 20px;
-    margin: 0;
-    padding: 10px 0px;
-    border: 2px solid black;
-    border-radius: 5px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
+
