@@ -1,48 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Neumorphism calculator design</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate me! - A calculator made my me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
-  <div class="container">
-    <div class="result">
-      <p id="result-box">0</p>
+  <h1 class="text-center">Welcome to Calculate me!</h1>
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+    <div class="row">
+      <input class="input" type="text"/>
     </div>
-
-
-    <div class="buttons">
-      <div class="button action-btn" id="clear"> AC </div>
-      <div class="button action-btn"> MC</div>
-      <div class="button num-button  action-btn"> %</div>
-      <div class="button num-button  calc-action-btn"> /</div>
-      <div class="button num-button seven">7</div>
-      <div class="button num-button eight">8</div>
-      <div class="button num-button  nine">9</div>
-      <div class="button num-button  calc-action-btn">*</div>
-      <div class="button num-button  four">4</div>
-      <div class="button num-button  five">5</div>
-      <div class="button num-button  six">6</div>
-      <div class="button num-button  calc-action-btn">-</div>
-      <div class="button num-button  one">1</div>
-      <div class="button num-button  two">2</div>
-      <div class="button num-button  three">3</div>
-      <div class="button num-button  calc-action-btn">+</div>
-      <div class="button num-button  zero">0</div>
-      <div class="button num-button  point">.</div>
-      <div class="button calc-action-btn" id="total">=</div>
+    <div class="row">
+      <button class="button">C</button>
+      <button class="button">%</button>
+      <button class="button">M+</button>
+      <button class="button">M-</button>
     </div>
-
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button">*</button>
+    </div>
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button">/</button>
+    </div>
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button">+</button>
+    </div>
+    <div class="row">
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button">=</button>
+      <button class="button">-</button>
+    </div>
   </div>
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
-  <script src="./script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
