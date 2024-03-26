@@ -15,6 +15,7 @@ Array.from(buttons).forEach((button)=>{
     console.log(e.target)
     string = string + e.target.innerHTML;
     document.querySelector('input').value = string;
-      }
+    }
   })
 })
+
