@@ -25,4 +25,9 @@ html, body{
   border: 2px solid black;
   border-radius: 5px;
 }
-
+body {
+  background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
